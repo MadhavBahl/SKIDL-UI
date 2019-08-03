@@ -20,7 +20,7 @@ ReactDOM.render(
                     : <Route exact={true} path='/' component={Registration} />
             }
             <Route exact={true} path='/profile' component={Profile} />
-            <Route exact={true} path='/profile' component={Video} />
+            <Route exact={true} path='/video' component={Video} />
         </Switch>
     </Router>,
     document.getElementById('root')
