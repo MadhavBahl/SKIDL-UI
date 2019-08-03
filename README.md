@@ -1,6 +1,6 @@
 # SKIDL (DAPP)
 
-Project made for ETHIndia hackathon##
+Project made for ETHIndia hackathon
 
 ## Steps to run
 
