@@ -359,14 +359,14 @@ class AgoraCanvas extends React.Component {
         <i className="ag-icon ag-icon-switch-display"></i>
       </span>
     )
-    const hideRemoteBtn = (
-      <span
-        className={this.state.streamList.length > 4 || this.state.displayMode !== 'pip' ? "ag-btn disableRemoteBtn disabled" : "ag-btn disableRemoteBtn"}
-        onClick={this.hideRemote}
-        title="Hide Remote Stream">
-        <i className="ag-icon ag-icon-remove-pip"></i>
-      </span>
-    )
+    // const hideRemoteBtn = (
+    //   <span
+    //     className={this.state.streamList.length > 4 || this.state.displayMode !== 'pip' ? "ag-btn disableRemoteBtn disabled" : "ag-btn disableRemoteBtn"}
+    //     onClick={this.hideRemote}
+    //     title="Hide Remote Stream">
+    //     <i className="ag-icon ag-icon-remove-pip"></i>
+    //   </span>
+    // )
     const exitBtn = (
       <span
         onClick={this.handleExit}
@@ -386,7 +386,7 @@ class AgoraCanvas extends React.Component {
                         <i className="ag-icon ag-icon-screen-share"></i>
                     </span> */}
           {switchDisplayBtn}
-          {hideRemoteBtn}
+          {/*hideRemoteBtn*/}
         </div>
       </div>
     )
