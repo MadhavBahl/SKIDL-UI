@@ -13,10 +13,10 @@ class FeedSidePane extends Component {
                             <p id="main-name">{this.props.name}</p>
                             <p id="star-rating"><b>{this.props.rating} Star</b> Teacher</p>
 
+                            <img src={Avatar} alt="Avatar" />
+
                             <p id="skills-top">Skills</p>
                             <p id="skills-value">{this.props.skill1} | {this.props.skill2} | {this.props.skill3}</p>
-
-                            <img src={Avatar} alt="Avatar" />
 
                             <p id="main-about">{this.props.about}</p>
                         </div>

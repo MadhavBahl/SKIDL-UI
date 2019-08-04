@@ -11,7 +11,7 @@
     height: 100vh;
     background-color: #FFFFFF;
     /* position: relative; */
-    padding: 16px !important;
+    padding: 20px !important;
 }
 
 .feed-sidepane-row {
@@ -75,4 +75,31 @@
 
 #main-about {
     text-align: justify !important;
+}
+
+.timeline-container {
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 32px;
+}
+
+.accept-offer-btn  {
+    font-size: 12px;
+    margin: 0 !important;
+}
+
+.minus-margini-top {
+    margin-top: 7px;
+}
+
+#textarea1 {
+    padding: 10px !important;
+}
+
+.zero-margin {
+    margin: 0;
+}
+
+.remove-bottom-pad  {
+    padding-bottom: 0 !important;
 }
